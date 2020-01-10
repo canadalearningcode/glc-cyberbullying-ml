@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <title>Girls Learning Code</title>
+  <link rel="stylesheet" href="framework/css/slideshow.css" data-noprefix>
+  <link rel="stylesheet" href="framework/css/fonts.css" data-noprefix>
+  <link rel="stylesheet" href="framework/css/highlightjs/github.css" data-noprefix>
+  <link rel="stylesheet" href="framework/css/styles.css" data-noprefix>
+  <link rel="shortcut icon" href="framework/img/favicon.ico">
+
+  <!-- Takes care of CSS3 prefixes -->
+  <script src="framework/scripts/prefixfree.min.js"></script>
+
+  <!-- opens all links in a new window -->
+  <base target="_blank">
+</head>
+
+<!-- Timer/progress bar: Define the presentation duration using "data-duration" in minutes. -->
+<body class="en" data-duration="360">
+
+  <main>
+  <section class="slide" data-toc data-markdown>
+    <script type="text/template">
+      ##Instructor Notes
+
+      ##Girls Learning Code: Tackling Cyberbullying with Machine Learning
+
+      <br>
+      #Key Programming Concepts
+      <ul>
+        <li> <strong>Conditional Statements</strong> use a condition to decide whether an action is exectuted. If the condition is evaluated to true, some operation is performed.</li>
+        <li> <strong>Loops</strong> are a computer action that is repeated until a specified condition is reached.</li>
+        <li> <strong>Data</strong> is distinct pieces of information, usually formatted in a special way. </li>
+        <li> <strong>Machine Learning Algorithms</strong> are algorithms with the ability to automatically learn and improve from experience without being explicitly programmed.</li>
+        <li> <strong>Supervised Learning</strong> is a training process which takes a known set of data (inputs) and its known responses to the data (outputs) to learn how to perform a task. </li>
+
+      </ul>
+
+      #Schedule
+
+      ![intro icon](framework/img/workshop/intro-icon.png) What is Cyberbullying (Unplugged) (50 min)
+
+      ![code icon](framework/img/workshop/intro-icon.png) Introduction to Machine Learning (30 min)
+
+      ![intro icon](framework/img/workshop/laptop-icon.png) Training our Intelligent Assistants (30 min)
+
+      ![code icon](framework/img/workshop/code-icon.png) Code-Along in Scratch (40 minutes)
+
+      ![laptop icon](framework/img/workshop/laptop-icon.png) Demos (20 min)
+
+      <br>
+      #Materials + Special Requirements
+
+      * This activity requires WiFi
+      * This activity requires pencils and/or markers
+      * This activity requires stick it notes
+
+      #Contingency
+      * In the case of no WiFi the workshop first 2 sections remain unchanged
+      * When the time comes to train the assistant, learners should use <a href="https://scratch.mit.edu/download">offline scratch</a> to create an assistant which looks for key words
+      * If there is time remaining, perform activity 2 from <a href="https://www.canadalearningcode.ca/lessons/learn-like-a-computer/">Learn Like a Computer</a>
+
+      #Introduction
+
+      **Introductions (Slide 3):**
+      <br>Ask learners to put their computers into "politeness mode" (closed halfway) before you begin.
+
+      Have mentors stand up and introduce themselves.
+
+      **Icebreaker (Slide 4):**
+      <br>Choose an icebreaker from the list of <a href="https://docs.google.com/document/d/18zNvgQ9bngEjhWDkbtaA8Pw5v0JASYpMag4xi8GazJQ/edit">icebreaker activities</a>. Try to pick a game which promotes verbal interaction within learners.
+
+      **Coders' Code (Slide 6):**
+      <br>Ask: What are some ways you can ask for help during the workshop? (A: Mentors, Instructor and peers)
+
+      Ask: What does it mean to be present? (A: Paying attention and following along with the activities). Use this as an opportunity to establish call back words such as “hands on top that means stop”and/or “waterfall”.
+
+      Ask: What does respect others mean? (A: Treat each other the way you would like to be treated).
+
+      Ask: What does trying your best mean? (A: Even the best coders have trouble sometimes, so we don’t expect you to do everything perfectly the first time, but make sure you’re trying your best. Don’t be afraid to try things out and make mistakes!)
+
+      **Disclosure (Slide 7):**
+      <br>Read off the slide. Canada Learning Code would like no paraphrasing of this statement.
+
+      Mention to learners that Kids Help Phone live chat uses a form of artificial intelligence to help you while you wait for a real person. Today we will be learning about how that works!
+      <br>
+      <br>
+
+      #What is Cyberbullying?
+
+      **Cyberbullying is... (Slide 13):**
+      <br>Ask: Are children and teens the only ones targeted through cyberbullying? (A: No! It can happen to adults as well such as work group chats).
+
+      **No One Definition... (Slide 15):**
+      <br>Let’s define cyberbullying together! Each group should discuss with each other what they believe cyberbullying is. Each group with the help of mentors should write a definition of cyberbullying.
+
+      **Social Media (Slide 16):**
+      <br>Ask: Do you think social media is inherently bad? (A: No)
+
+      Ask: How can social media be positive? (A:Being able to stay connected with friends and family whom you can’t see all the time. Other examples can be an outlet to express yourself and bring people together.)
+
+      **Throw it in the Bucket (Slide 17):**
+      <br>Throw it in the bucket. Each learner should write a Social Media Platform they are familiar with on a piece of paper/stick it note.
+      After all have been collected each group should be given one piece of paper from the bucket with a unique social media platform on it.
+
+      Each group needs to act out the social media platform while learners guess which they are. Try to ensure at least one group is acting out <strong>Instagram, Snapchat and YouTube </strong>.
+
+      **The Social Butterfly Effect (Slide 18):**
+      <br>Have one learner from each group come up and get comic books for themselves and their peers. Note adults attended do <strong>NOT</strong> get a comic book.
+
+      **10 Minutes (Slide 19):**
+      <br>Learners should read the comic book outloud. A method of doing this is assigning each member of the group a role. The roles are:
+
+      Amira (Lots of reading)
+      <br>Social Media (Lots of reading)
+      <br>Rochelle (Moderate reading)
+      <br>Amira’s Mom (Little reading)
+      <br>Locker Girls (Little reading)
+
+      If any members of the group have trouble reading in English or French encourage them to read with a mentor or parent.
+
+      **The Bullies Were... (Slide 23): **
+      <br> (A: Rochelle did <strong>NOT</strong> mean to cyberbully Amira.)
+
+      The butterfly effect is a theory in math where the smallest action (such as a butterfly flapping its wings) can have large effects.
+
+      **The Bullies Were... (Slide 24):**
+      <br>(A: The creators of the meme/video were bullies because they were mistreating/causing harm to Amira who at the time was perceived as vulnerable.)
+
+      (A:Anyone who liked or shared the video were encouraging/approving/spreading the bullies behaviour, thus making them bullies as well.)
+
+      **THINK (Slide 26):**
+      <br>While going through the THINK acronym write what each letter means in a space where all learners can see as this definition will be referred to at a later time in the workshop.
+
+      Ask: What is a statement which would pass the THINK test?
+
+      **The Bystanders Were... (Slide 30):**
+      <br>(A:The locker girls along with anyone viewing the video/meme were bystanders because although they may not support the bullies views they were not doing anything to help Amira’s situation.)
+
+      **The Amazing Race... (Slide 32):**
+      <br>The Amazing Race should encourage learners to self explore strategies to help Amira from both her and a bystanders perspective. Encourage learners to stick there stick it notes in a common place such as a wall or window.
+      <br>
+      <br>
+
+      #Introduction to Machine Learning
+
+      **Code is... (Slide 37):**
+      <br>To demonstrate how specific programming needs to be have learners give you instructions on how to brush your teeth, make toast or make your bed. Act every instruction literally. For example, if a learner says to put the toothbrush in your mouth, pretend to put it on your tongue. The goal is for learners to give instructions such as “put the toothbrush horizontally on your teeth and then move your hand sideways.”
+
+      **Consider the Following... (Slide 39):**
+      <br>Ask a learner to say the statement on the screen out loud reflecting the tone of the message.
+
+      **Sentiments (Slide 43):**
+      <br>Creating cyberbullying filters are so difficult, because in text small changes such as an exclamation mark can change the meaning of a sentence. This is because it is hard to convey <strong>tone</strong> over text.
+
+      **Let's Collect Data (Slide 50):**
+      <br>(A: The colours purple, green, yellow, orange, blue, brown, beige and red are in the cart.)
+
+      (A: There are 3 fruits in the cart)
+
+      (A: There are 3 inedible things in the cart (shoe, hat and shirt))
+
+      **Let's Go on a Picnic (Slide 30):**
+      <br><a href="https://www.canadalearningcode.ca/lessons/learn-like-a-computer/"> Resource for Let's go on a Picnic Activity </a>
+
+      Perform the first activity and reflection with learners. Ensure at least 1 mentor is in each circle. The learner who is choosing a pattern must have their pattern approved by a mentor before the game begins. Ensure the pattern is easily discernible. Stick to items such as food groups, colors or materials.
+
+      **Muffin or Chihuahua (Slide 53):**
+      <br><a href="https://docs.google.com/document/d/1Wdedi9x02tHRceYcJLHtfCLTmmQKp4K6XToT9GoYY_k/edit?usp=sharing"> Resource for how to explain the Muffin or Chihuahua Example </a>
+
+      **Bias is... (Slide 62): **
+      <br>An example of bias is someone liking cats and disliking dogs having never interacted or owned a dog. This is a bias towards cats, because their opinion on dogs has no basis.
+
+      **Which Dataset is Better? (Slide 64)**
+      <br>The second dataset is the more diverse dataset. The first dataset has a selection bias towards shoes mainly worn by men. If a computer was trained using the first dataset, the computer could have trouble recognizing heeled shoes because it wasn’t exposed to enough examples of them.
+
+      **Let's Gather Some Data (Slide 32): **
+      <br>A blank T chart is provided at the end of the comic book. Encourage learners to think of their own nice phrases. However, stress they are to only write mean phrases found in the comic book!
+
+      <br>
+      #Training our Intelligent Assistants Code-Along
+
+      * <a href="https://docs.google.com/document/d/1UtDnqac4eJkUMHi31272RovhshPihh0_lgW7GdIGYKI/edit?usp=sharing">Solution Key is available here (Pages 1-4)</a>
+
+      **Over & Underfitting (Slide 68): **
+      <br>Explain these slides before learners begin to write there phrases into their labels in Machine Learning for Kids.
+
+      **Break (Slide 70): **
+      <br>Training the models usually takes around 5 minutes. Use this break as an opportunity to allow learners to relax while the models are training. Make sure learners do not exit the website or close their computers.
+
+      <br>
+      #Programming our Intelligent Assistants Code-Along
+
+      * <a href="https://docs.google.com/document/d/1UtDnqac4eJkUMHi31272RovhshPihh0_lgW7GdIGYKI/edit?usp=sharing">Solution Key is available here (Pages 4-11)</a>
+
+      <br>
+      #Demos (Slide 73)
+      * Each pair of learners should have a chance to come to the front of the room and talk about their project and favourite moments of the workshop!
+      * Remind learners to speak clearly and to the audience
+      * After slide 72 give learners a few minutes to prepare for Demos
+      * Encourage every learner to speak, even if its one sentence
+
+     </script>
+  </section>
+  </main><!-- cls main section -->
+
+  <script src="framework/scripts/jquery-1.11.0.min.js"></script>
+  <script src="framework/scripts/slideshow.js"></script>
+
+  <!-- Uncomment the plugins you need -->
+  <script src="framework/scripts/plugins/css-edit.js"></script>
+  <script src="framework/scripts/plugins/css-snippets.js"></script>
+  <script src="framework/scripts/plugins/css-controls.js"></script>
+  <!-- <script src="plugins/code-highlight.js"></script>-->
+
+  <script src="framework/scripts/plugins/markdown/marked.js"></script>
+  <script src="framework/scripts/plugins/markdown/markdown.js"></script>
+  <script src="framework/scripts/plugins/highlight/highlight-8.4.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script>
+  <script src="framework/scripts/llc.js"></script>
+  <script>
+    var slideshow = new SlideShow();
+
+    // Grabs all the .snippet elements
+    var snippets = document.querySelectorAll('.snippet');
+    for(var i=0; i<snippets.length; i++) {
+      new CSSSnippet(snippets[i]);
+    }
+  </script>
+</body>
+</html>
