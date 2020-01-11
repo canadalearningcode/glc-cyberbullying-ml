@@ -3,7 +3,7 @@
 
 ## Quick Links
 
-<!--Preview Instructor Notes: <a href="https://ladieslearningcode.github.io/glc-cyberbullying-ml/notes-en.html">ladieslearningcode.github.io/glc-cyberbullying-ml/notes-en.html</a>-->
+Preview Instructor Notes: <a href="https://ladieslearningcode.github.io/glc-cyberbullying-ml/notes-en.html">ladieslearningcode.github.io/glc-cyberbullying-ml/notes-en.html</a>
 
 Preview Slides: <a href="https://ladieslearningcode.github.io/glc-cyberbullying-ml/slides-en.html">ladieslearningcode.github.io/glc-cyberbullying-ml/slides-en.html</a>
 
