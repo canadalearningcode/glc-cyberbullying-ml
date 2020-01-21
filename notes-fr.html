@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <title>Filles en programmation</title>
+  <link rel="stylesheet" href="framework/css/slideshow.css" data-noprefix>
+  <link rel="stylesheet" href="framework/css/fonts.css" data-noprefix>
+  <link rel="stylesheet" href="framework/css/highlightjs/github.css" data-noprefix>
+  <link rel="stylesheet" href="framework/css/styles.css" data-noprefix>
+  <link rel="shortcut icon" href="framework/img/favicon.ico">
+
+  <!-- S’occupe des préfixes CSS3 -->
+  <script src="framework/scripts/prefixfree.min.js"></script>
+
+  <!-- Ouvre tous les liens dans une nouvelle fenêtre -->
+  <base target="_blank">
+</head>
+
+<!-- Durée / barre de progression : définissez la durée de la présentation avec « data-duration » en minutes. -->
+<body class="en" data-duration="360">
+
+  <main>
+  <section class="slide" data-toc data-markdown>
+    <script type="text/template">
+      ##Notes d'enseignement
+
+      ## Filles en programmation : lutter contre la cyberintimidation avec l’apprentissage machine
+      <br>
+      #À propos du contenu
+      <div style="font-size:25px;">
+      La cyberintimidation est un problème complexe qui nécessite une solution originale. Les apprenantes seront sensibilisées aux effets néfastes de la cyberintimidation et découvriront des façons de lutter contre celle-ci.
+
+      Elles verront les limites de la programmation traditionnelle dans la résolution de problèmes complexes.  Grâce aux activités débranchées, les participantes seront initiées à l’apprentissage machine et à ses différences par rapport à la programmation traditionnelle. Finalement, durant la dernière partie de l'atelier, les apprenantes entraîneront et personnaliseront un assistant intelligent.
+
+      En apparence, l’apprentissage machine est un sujet difficile à comprendre. Toutefois, le contenu de cet atelier est adapté aux besoins des novices dans le domaine. Les activités débranchées rendent la matière amusante et facile à digérer. Si vous souhaitez en savoir plus sur l’apprentissage machine, consultez cet <a href="https://towardsdatascience.com/explaining-supervised-learning-to-a-kid-c2236f423e0f">excellent article</a> (en anglais). <!--need FR article-->
+
+      J'espère que vous aimerez enseigner cette leçon autant que j'ai aimé la créer! Bonne chance, vous êtes capables!
+
+      <br>
+      #Concepts de programmation clés
+
+      <ul>
+        <li> Les <strong>expressions conditionnelles</strong> vérifient si une condition a été remplie pour décider si une action sera réalisée ou non. Si la condition est remplie (en d'autres mots, si elle est vraie ou « true »), une action est réalisée.</li>
+        <li> Les <strong>boucles</strong> servent à répéter une action jusqu’à ce qu'une condition précise soit remplie.</li>
+        <li> Les <strong>données</strong> sont des informations distinctes habituellement présentées (formatées) d’une manière particulière (nombres, texte, son, vidéo, etc.). </li>
+        <li> Les <strong>algorithmes d’apprentissage machine</strong> sont des algorithmes pouvant apprendre automatiquement et s'améliorer avec leurs expériences par eux-mêmes, sans être programmés explicitement.</li>
+        <li> L’<strong>apprentissage supervisé</strong> est un processus d’entraînement prenant un ensemble de données (données d’entrée) et ses résultats (données de sortie) pour enseigner à un ordinateur comment réaliser une tâche. </li>
+      </ul>
+
+      #Horaire
+
+      ![Icône d’intro](framework/img/workshop/intro-icon.png) Qu'est-ce que la cyberintimidation? (Activité débranchée) (50 minutes)
+
+      ![Icône de code](framework/img/workshop/intro-icon.png) Introduction à l'apprentissage machine (40 minutes)
+
+      ![Icône d’intro](framework/img/workshop/laptop-icon.png) Entraînement de l’assistant intelligent (30 minutes)
+
+      ![Icône de code](framework/img/workshop/code-icon.png) Programmation en groupe dans Scratch (40 minutes)
+
+      ![Icône d’ordinateur portable](framework/img/workshop/laptop-icon.png) Présentations (20 minutes)
+
+      <br>
+      #Matériel + exigences particulières
+
+      * Cette activité nécessite une connexion Wi-Fi.
+      * Cette activité nécessite des exemplaires imprimés de « L'effet papillon sur les réseaux sociaux ».
+      * Cette activité nécessite des crayons ou des marqueurs.
+      * Cette activité nécessite des papillons adhésifs.
+      * Cette activité nécessite des feuilles de papier.
+
+      #Plan d’urgence
+      * S’il n'y a pas de Wi-Fi, le déroulement des deux premières sections ne change pas.
+      * Quand le temps est venu d'entraîner l'assistant, les apprenantes devraient utiliser l’<a href="https://scratch.mit.edu/download">éditeur Scratch hors ligne</a> pour créer un assistant qui cherchera des mots-clés.
+      * S’il reste du temps, faites l'activité 2 d’<a href="https://www.canadalearningcode.ca/fr/lecons/apprendre-comme-un-ordinateur/">Apprendre comme un ordinateur</a>.
+
+      #Introduction
+
+      **Dites bonjour (Diapositive 3) :**
+      <br>Avant de commencer, demandez aux élèves de mettre leur ordinateurs en mode « politesse » (à moitié fermés).
+
+      Demandez à l’équipe de mentorat de se lever et de se présenter.
+
+      **Activité brice-glace (Diapositive 4) :**
+      <br>Choisissez une activité brise-glace tirée de la <a href="https://drive.google.com/file/d/1sf25E95XKNIrqkU_Je7AaqgfqrHiOn6i/view?usp=sharing">liste</a>. Choisissez une activité qui favorise l’interaction verbale entre les apprenantes.
+
+      **Le code des programmeuses (Diapositive 6) :**
+      <br>Question : À qui pouvez-vous demander de l'aide durant l'atelier? (R : Autres apprenantes, mentores, formatrice.)
+
+      Question : Que veut dire « être présente »? (R : Rester attentive et suivre pendant les activités.) Profitez de l’occasion pour leur apprendre des mots de rappel à l’ordre, comme « mains en l’air » et « yeux à l'avant du local ».
+
+      Question : Comment peut-on respecter les autres? (R : En les traitant de la même manière que nous voulons être traités.)
+
+      Question : Comment peut-on faire de son mieux? (R : Même les meilleures programmeuses et les meilleurs programmeurs ont parfois de la difficulté. Nous ne nous attendons pas à ce que tout soit parfait. Tu n'as qu’à faire de ton mieux. Tu ne dois pas avoir peur d'essayer des choses et de faire des erreurs!)
+
+      Question : Est-ce que j’ai oublié quelque chose? Qu'est-ce qu’il nous manque pour vivre une super expérience aujourd'hui?
+
+      **Avertissement (Diapositive 7) :**
+      <br>Lisez la diapositive. L’équipe de Canada en programmation souhaiterait que ce message soit lu intégralement et sans paraphrase.
+
+      Mentionnez au groupe que le clavardage de Jeunesse j’écoute utilise une forme d’intelligence artificielle pour aider les gens qui souhaitent avoir de l'aide avant de parler à une vraie personne. Aujourd’hui, nous verrons comment ce système fonctionne!
+      <br>
+      <br>
+
+      #Qu'est-ce que la cyberintimidation?
+
+      **Qu'est-ce que la cyberintimidation? (Diapositive 13) :**
+      <br>Question : Est-ce que les enfants et les ados sont les seules personnes victimes de cyberintimidation? (R : Non! Même les adultes sont victimes de cyberintimidation. Par exemple, ils peuvent recevoir des courriels ou des messages blessants dans un groupe de collègues de travail.)
+
+      **Il y a plus d’une définition... (Diapositive 15) :**
+      <br>Définissons la cyberintimidation ensemble! Chaque groupe doit discuter de sa propre définition de la cyberintimidation. Les mentores les aideront à écrire une définition.
+
+      **Réseaux sociaux (Diapositive 16 ) :**
+      <br>Question : Pensez-vous que les réseaux sociaux sont mauvais en soi? (R : Non.)
+
+      Question : Quels sont les aspects positifs des réseaux sociaux? (R : Ils servent à rester en contact avec des amies et amis et des membres de notre famille que nous ne voyons pas souvent. De plus, ils nous permettent de nous exprimer et de rencontrer des gens qui partagent nos champs d’intérêt.)
+
+      **Lance ton idée! (Diapositive 17) :**
+      <br>Chaque apprenante doit écrire le nom d’un réseau social sur une feuille de papier ou un papillon adhésif.
+      Ensuite, nous ramasserons les idées de tout le monde et les mettrons dans un contenant (par exemple, en les lançant dans un seau!). Chaque groupe pigera un papier dans le contenant.
+
+      Selon le réseau social écrit sur le papier, chaque groupe devra reproduire (imiter) les comportements sur le réseau et les apprenantes deviner le nom du site ou de l'app. Assurez-vous qu'au moins un groupe représente les réseaux <strong>Instagram, Snapchat et YouTube </strong>.
+
+      **L'effet papillon sur les réseaux sociaux (Diapositive 18) :**
+      <br>Demandez à une apprenante de chaque groupe de prendre une bande dessinée pour chaque membre. Attention : les adultes présents dans la salle ne recevront <strong>PAS</strong> d’exemplaire.
+
+      **10 minutes (Diapositive 19) :**
+      <br>Les apprenantes doivent lire la bande dessinée avec leur groupe. Pour faciliter la lecture, il est conseillé d'attribuer un rôle à chaque membre du groupe. Voici les différents personnages :
+
+      Amira (beaucoup de lignes)
+      <br>Réseaux sociaux (beaucoup de lignes)
+      <br>Rochelle (quantité moyenne de lignes)
+      <br>Maman d’Amira (peu de lignes)
+      <br>Filles aux casiers (peu de lignes)
+
+      Si les membres du groupe ont de la difficulté à lire en français ou en anglais, encouragez-les à lire avec une mentore ou un parent.
+
+      **Les intimidateurs dans l’histoire (Diapositive 23) : **
+      <br> (R : Rochelle ne voulait <strong>PAS</strong> cyberintimider Amira.)
+
+      L’effet papillon est une théorie en mathématiques selon laquelle une petite action peut avoir de graves conséquences. Le nom s’inspire du fait qu’un battement d’ailes de papillon peut causer une tornade à des milliers de kilomètres de l'endroit où volait le papillon.
+
+      **Les intimidateurs dans l’histoire (Diapositive 24) :**
+      <br> (R : Les créateurs du mème et du vidéo sont des intimidateurs, car ils ont maltraité et blessé Amira au moment où elle était perçue comme vulnérable.)
+
+      (R : Toutes les personnes ayant aimé ou partagé la vidéo ont encouragé, approuvé et transmis le message d’intimidation. Ils sont donc des intimidateurs, eux aussi.)
+
+      **PENSER avant de publier (Diapositive 26) :**
+      <br>En parlant de « PENSER avant de publier », écrivez les cinq questions à se poser avant de publier à un endroit visible par tous, comme un tableau ou un écran. Nous reviendrons à « PENSER avant de publier » plus tard pendant l'atelier.
+
+      Question : Avez-vous une idée de publication qui passerait le test « PENSER avant de publier »?
+
+      **Les témoins dans l’histoire (Diapositive 30) :**
+      <br>(R : Les filles aux casiers et toutes les personnes qui ont vu le mème et la vidéo sont les témoins. Même s’ils ne soutiennent pas les intimidateurs, ils ne font rien pour améliorer la situation d'Amira.)
+
+      **Le rallye contre la cyberintimidation (Diapositive 32) :**
+      <br>Le rallye contre la cyberintimidation a été conçu pour faire découvrir au groupe des stratégies pour aider Amira en tant que témoins. Ils trouveront aussi des solutions pour lutter contre la cyberintimidation du point de vue d’une victime, comme Amira. Encouragez les apprenantes à coller leurs papillons adhésifs au même endroit, comme sur un mur ou une fenêtre.
+      <br>
+      <br>
+
+      #Initiation à l’apprentissage machine
+
+      **Le code, c'est... (Diapositive 37) :**
+      <br>Pour leur montrer que la programmation nécessite des consignes très précises, demandez au groupe de vous donner des consignes pour brosser vos dents, préparer des rôties ou faire votre lit. Suivez les consignes à la lettre. Par exemple, si une apprenante vous dit de mettre la brosse à dents dans votre bouche, faites semblant que vous la mettez sur votre langue. L’objectif est de pousser les apprenantes à donner des consignes extrêmement précises, comme « mets ta brosse à dents à l'horizontale sur tes dents et bouge ta main de gauche à droite ».
+
+      **Pensez-y bien... (Diapositive 39) :**
+      <br>Demandez aux apprenantes de lire les phrases à voix haute en reproduisant le ton du message.
+
+      **Sentiments (Diapositive 43) :**
+      <br>Il est difficile de créer des filtres anticyberintimidation, car un tout petit signe de ponctuation peut changer complètement le sens d’une phrase. Le <strong>ton</strong> d’une phrase n'est pas facile à percevoir à l’écrit.
+
+      **Collectons des données (Diapositive 50) :**
+      <br> (R : Il y a des objets mauves, verts, jaunes, orange, bleus, bruns, beiges et rouges dans le panier.)
+
+      (R : Il y a trois fruits dans le panier.)
+
+      (R : Il y a trois choses qui ne se mangent pas dans le panier (chaussure, chapeau, chandail).)
+
+      **Faisons un pique-nique! (Diapositive 30) :**
+      <br><a href="https://www.canadalearningcode.ca/fr/lecons/apprendre-comme-un-ordinateur/"> Ressource pour l'activité Faisons un pique-nique. </a>
+
+      Faites la première activité et la réflexion avec les apprenantes. Assurez-vous qu’une mentore se trouve dans chaque cercle. L’apprenante qui choisit la tendance doit la faire approuver par une mentore avant le début du jeu. La tendance doit être facile à cerner. Il est conseillé de choisir des éléments comme des groupes d'aliments, des couleurs ou des matériaux.
+
+      **Muffin ou chihuahua (Diapositive 54) :**
+      <br>Nous devons trouver des caractéristiques qui différencient les images. Ces caractéristiques doivent être observables sur chaque image. Dans l'exemple, nous avons choisi la couleur et le nombre de points foncés sur les muffins et les chihuahuas pour les différiencer.
+
+      **Muffin ou chihuahua (Diapositive 55) :**
+      <br>Mainenant, nous ajouterons des images sur le graphique! Afin que le modèle soit fiable, nous devons utiliser un ensemble d’images divers et équitable. Nous aurons donc un ensemble d’images composé à 50 % de chihuahuas et à 50 % de muffins. De plus, nos images auront des arrière-plans et un éclairage différents. Plus nos images sont variées, plus le modèle sera bien entraîné à reconnaître les objets.
+
+      **Muffin ou chihuahua (Diapositive 56) :**
+      <Br>Rien de plus facile! Si nous avons beaucoup d’images (des exemples), le modèle sera mieux entraîné et les résultats du classement seront exacts.
+
+      **Muffin ou chihuahua (Diapositive 57) :**
+      <br>C’est là que nous constatons l'efficacité de l’apprentissage machine. En ce moment, notre graphique est un peu pèle-mêle. Nous savons différencier un muffin d’un chihuahua et notre objectif est d'entraîner l’ordinateur à les différencier, lui aussi.
+
+      Si nous regardons bien nos données, il est possible de déceler une tendance. Nous pouvons dessiner une ligne qui sépare les muffins des chihuahuas. L'apprentissage machine se résume à tracer une ligne pour aider l’ordinateur à différencier les deux. Les mathématiques que nous utilisons pour ce calcul (l'algorithme du gradient et la méthode des moindres carrés) sont trop avancées pour être abordées durant cet atelier, mais il y a plusieurs ressources pour en savoir plus.
+
+      **Muffin ou chihuahua (Diapositive 58) :**
+      <br>Nous avons réussi à entraîner notre ordinateur à différencier les chihuahuas des muffins! Chaque fois que nous demandons à un ordinateur si une image est un chihuahua ou un muffin, il fait un graphique pour déterminer de quel côté de la ligne l’image se classe. En seulement cinq étapes, vous avez appris le processus servant à entraîner la plupart des modèles d’apprentissage machine.
+
+      **Qu'est-ce que le biais? (Diapositive 62) : **
+      <br>Un biais est une préférence sans justification. Par exemple, quelqu’un pourrait aimer les chats et détester les chiens, même si cette personne n’a jamais eu de chien ou interagi avec un chien. Cette préférence pour les chats est un biais, car la personne a une opinion non justifiée sur les chiens.
+
+      **Quel est le meilleur ensemble de données? (Diapositive 64)**
+      <br>Le deuxième ensemble de données est le plus divers. Le premier ensemble de données a un biais de sélection, car il contient surtout des chaussures portées par les hommes. Si un ordinateur est entraîné avec le premier ensemble de données, il pourrait avoir de la difficulté à reconnaître les chaussures avec des talons hauts, car il n'aurait pas été assez exposé à des exemples représentant ce type de chaussures.
+
+      **Collectons des données (Diapositive 32) :** **
+      <br>Un graphique en T se trouve à la fin de la bande dessinée. Encouragez les apprenantes à trouver des phrases gentilles pour l'assistant. Toutefois, dites-leur qu'elles ne peuvent écrire QUE des phrases méchantes tirées de la bande dessinée.
+
+      <br>
+      #Programmation en groupe : entraîner nos assistants intelligents
+
+      * S’il n’y a pas de Wi-Fi, ne faites pas cette activité.
+      * <a href="https://docs.google.com/document/d/15o15y_7c1k7q86s4kKUsVfL_09RHvvW5whqdBdB889M/edit?usp=sharing">Le corrigé se trouve ici (pages 1 à 4).</a>
+
+      **Surajustement et sous-ajustement (Diapositive 68) : **
+      <br>Expliquez ces diapositives avant que les apprenantes écrivent leurs phrases dans les étiquettes du site Machine Learning for Kids.
+
+      **Pause (Diapositive 70) :** **
+      <br>L'entraînement des modèles prend environ cinq minutes. Profitez de la pause pour vous reposer pendant que les modèles s’entraînent. Assurez-vous que les apprenantes ne quittent pas le site et ne ferment pas leur ordinateur.
+
+      <br>
+      #Programmation en groupe : programmer nos assistants intelligents
+
+      * <a href="https://docs.google.com/document/d/15o15y_7c1k7q86s4kKUsVfL_09RHvvW5whqdBdB889M/edit?usp=sharing">Le corrigé se trouve ici (pages 4 à 11).</a>
+
+      <!-- IN TRANSLATION
+      * <a href="https://docs.google.com/document/d/1WZjedcWpamACVFDS9WeKNXTK_afPmhr1pSdjTzUfiEg/edit?usp=sharing">S’il n’y a <strong> PAS DE WI-FI</strong>, utilisez ce corrigé.</a>. Dites bien aux apprenantes que ce n'est <strong> PAS </strong>  de l'apprentissage machine. Expliquez-leur que même si elles utilisent des mots-clés, certains messages méchants pourraient ne pas être détectés. L'assistant pourrait ne pas comprendre des messages gentils ou méchants, car ils ne contiennent pas de mots-clés. N’oubliez pas qu’il y a aussi des mots-clés qui sont à la fois gentils et méchants selon le contexte! C’est la raison pour laquelle l’apprentissage machine supervisé est important. S’il reste du temps, faites l'activité 2 de <a href="https://www.canadalearningcode.ca/fr/lecons/apprendre-comme-un-ordinateur/">Apprendre comme un ordinateur</a>.-->
+
+      <br>
+      #Présentations (Diapositive 73)
+      * Invitez chaque groupe de deux participantes à l'avant pour présenter leur projet et leurs moments préférés de l'atelier.
+      * Rappelez-leur de parler clairement devant la classe.
+      * Après la diapositive 72, accordez aux apprenantes quelques minutes pour préparer leur présentation.
+      * Encouragez toutes les apprenantes à prendre la parole, même si elles ne disent qu’une seule phrase.
+
+     </script>
+  </section>
+  </main><!-- Section principale cls -->
+
+  <script src="framework/scripts/jquery-1.11.0.min.js"></script>
+  <script src="framework/scripts/slideshow.js"></script>
+
+  <!-- Enlevez les commentaires des modules dont vous avez besoin -->
+  <script src="framework/scripts/plugins/css-edit.js"></script>
+  <script src="framework/scripts/plugins/css-snippets.js"></script>
+  <script src="framework/scripts/plugins/css-controls.js"></script>
+  <!-- <script src="plugins/code-highlight.js"></script>-->
+
+  <script src="framework/scripts/plugins/markdown/marked.js"></script>
+  <script src="framework/scripts/plugins/markdown/markdown.js"></script>
+  <script src="framework/scripts/plugins/highlight/highlight-8.4.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script>
+  <script src="framework/scripts/llc.js"></script>
+  <script>
+    var slideshow = new SlideShow();
+
+    // Regroupe tous les éléments .snippet
+    var snippets = document.querySelectorAll('.snippet');
+    for(var i=0; i<snippets.length; i++) {
+      new CSSSnippet(snippets[i]);
+    }
+  </script>
+</body>
+</html>
