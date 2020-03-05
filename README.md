@@ -1,11 +1,14 @@
 
-# [TESTING] Girls Learning Code: Tackling Cyberbullying with Machine Learning
+# National Girls Learning Code Day
+# Tackling Cyberbullying with Machine Learning
 
 ## Quick Links
 
 Instructor Notes: <a href="https://ladieslearningcode.github.io/glc-cyberbullying-ml/notes-en.html">ladieslearningcode.github.io/glc-cyberbullying-ml/notes-en.html</a>
 
 Preview Slides: <a href="https://ladieslearningcode.github.io/glc-cyberbullying-ml/slides-en.html">ladieslearningcode.github.io/glc-cyberbullying-ml/slides-en.html</a>
+
+Solution Sheet: <a href="https://docs.google.com/document/d/1LYqT2h3PmMnqNW3qvmgWcyFXoEHEb3r6N4N-cVnlGAo/edit?usp=sharing">CREATING AN ASSISTANT WITH SCRATCH 3.0</a>
 
 # HOW TO USE:
 
@@ -36,13 +39,16 @@ Here’s an easy way to attribute content back to us - please include it whereve
 Our general Rule of Thumb is that it's okay to add examples if you feel it could provide more context for your community. However, we ask that instructors do not remove anything, as the content is designed with intention, whether that be meeting specific learning objectives, or maintaining our organization’s culture through the design.  Any suggestions for revisions or updates can be submitted in Github via issues and pull requests. If submitting an issue, please include the slide number(s) in the title.
 
 
-# [TEST] Filles en programmation : Lutter contre la cyberintimidation avec l’apprentissage machine
+# Journée nationale Filles en programmation
+# Lutter contre la cyberintimidation avec l’apprentissage machine
 
 ## Liens rapides
 
 Aperçu des notes : <a href="https://ladieslearningcode.github.io/glc-cyberbullying-ml/notes-fr.html">ladieslearningcode.github.io/glc-cyberbullying-ml/notes-fr.html</a>
 
 Aperçu des diapositives : <a href="https://ladieslearningcode.github.io/glc-cyberbullying-ml/slides-fr.html">ladieslearningcode.github.io/glc-cyberbullying-ml/slides-fr.html</a>
+
+Corrigé : <a href="https://docs.google.com/document/d/15o15y_7c1k7q86s4kKUsVfL_09RHvvW5whqdBdB889M/edit?usp=sharing">CRÉER UN ASSISTANT AVEC SCRATCH 3.0</a>
 
 # PRÉPARATION
 
