@@ -8,7 +8,7 @@ Instructor Notes: <a href="https://ladieslearningcode.github.io/glc-cyberbullyin
 
 Preview Slides: <a href="https://ladieslearningcode.github.io/glc-cyberbullying-ml/slides-en.html">ladieslearningcode.github.io/glc-cyberbullying-ml/slides-en.html</a>
 
-Solution Sheet: <a href="https://docs.google.com/document/d/1LYqT2h3PmMnqNW3qvmgWcyFXoEHEb3r6N4N-cVnlGAo/edit?usp=sharing">CREATING AN ASSISTANT WITH SCRATCH 3.0</a>
+Solution Sheet: <a href="http://bit.ly/glc-cyberbullying-solution">http://bit.ly/glc-cyberbullying-solution</a>
 
 # HOW TO USE:
 
@@ -48,7 +48,7 @@ Aperçu des notes : <a href="https://ladieslearningcode.github.io/glc-cyberbully
 
 Aperçu des diapositives : <a href="https://ladieslearningcode.github.io/glc-cyberbullying-ml/slides-fr.html">ladieslearningcode.github.io/glc-cyberbullying-ml/slides-fr.html</a>
 
-Corrigé : <a href="https://docs.google.com/document/d/15o15y_7c1k7q86s4kKUsVfL_09RHvvW5whqdBdB889M/edit?usp=sharing">CRÉER UN ASSISTANT AVEC SCRATCH 3.0</a>
+Corrigé : <a href="http://bit.ly/glc-cyberintimidation-corrige">http://bit.ly/glc-cyberintimidation-corrige</a>
 
 # PRÉPARATION
 
